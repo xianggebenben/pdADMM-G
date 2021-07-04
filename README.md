@@ -12,7 +12,7 @@ Special Issue on Deep Neural Networks for Graphs: Theory, Models, Algorithms and
 
 *parallel pdADMM-G* is the source code of parallel implementation of the pdADMM-G and pdADMM-G-Q algorithms.
 
-##Requirements
+## Requirements
 The codebase is implemented in Python 3.8.10. package versions used for development are just below.
 ```
 torch                1.8.1
