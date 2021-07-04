@@ -2,9 +2,7 @@
 
 This is an implementation of ADMM to achieve communication-efficient model parallelism for the Graph Augmented Multi-Layer Perceptron (GA-MLP) model, as described in our paper:
 
->Junxiang Wang, Hongyi Li, Zheng Chai, Yongchao Wang, Yue Cheng, and Liang Zhao. Towards Quantized Model Parallelism for Graph-Augmented MLPs Based on Gradient-Free ADMM Framework 
-(submitted to TNNSP (
-Special Issue on Deep Neural Networks for Graphs: Theory, Models, Algorithms and Applications))
+>Junxiang Wang, Hongyi Li, Zheng Chai, Yongchao Wang, Yue Cheng, and Liang Zhao. Towards Quantized Model Parallelism for Graph-Augmented MLPs Based on Gradient-Free ADMM Framework
 [[Paper]](https://www.researchgate.net/publication/351744585_Towards_Quantized_Model_Parallelism_for_Graph-Augmented_MLPs_Based_on_Gradient-Free_ADMM_framework)
 
 
