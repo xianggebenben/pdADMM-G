@@ -25,6 +25,7 @@ tornado              6.1
 ## Cite
 
 Please cite our paper if you use this code in your own work:
+
 @article{wang2021towards,
 
   title={Towards Quantized Model Parallelism for Graph-Augmented MLPs Based on Gradient-Free ADMM framework},
