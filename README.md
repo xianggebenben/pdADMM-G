@@ -22,3 +22,12 @@ torch-spline-conv    1.2.1
 pyarrow              3.0.0
 tornado              6.1
 ```
+## Cite
+
+Please cite our paper if you use this code in your own work:
+@article{wang2021towards,
+  title={Towards Quantized Model Parallelism for Graph-Augmented MLPs Based on Gradient-Free ADMM framework},
+  author={Wang, Junxiang and Li, Hongyi and Chai, Zheng and Wang, Yongchao and Cheng, Yue and Zhao, Liang},
+  journal={arXiv preprint arXiv:2105.09837},
+  year={2021}
+}
