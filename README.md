@@ -2,8 +2,8 @@
 
 This is an implementation of ADMM to achieve communication-efficient model parallelism for the Graph Augmented Multi-Layer Perceptron (GA-MLP) model, as described in our paper:
 
->Junxiang Wang, Hongyi Li(first-coauthor), Zheng Chai, Yongchao Wang, Yue Cheng, and Liang Zhao. Towards Quantized Model Parallelism for Graph-Augmented MLPs Based on Gradient-Free ADMM Framework
-[[Paper]](https://www.researchgate.net/publication/351744585_Towards_Quantized_Model_Parallelism_for_Graph-Augmented_MLPs_Based_on_Gradient-Free_ADMM_framework)
+>Junxiang Wang, Hongyi Li(first-coauthor), Zheng Chai, Yongchao Wang, Yue Cheng, and Liang Zhao. Towards Quantized Model Parallelism for Graph-Augmented MLPs Based on Gradient-Free ADMM Framework. IEEE Transactions on Neural Networks and Learning Systems 2022.
+[Paper](https://github.com/xianggebenben/Junxiang_Wang/blob/master/supplementary_material/TNNLS2022/GA_MLP.pdf)
 
 
 *serial pdADMM-G*  is the source code of serial implementation of the pdADMM-G and pdADMM-G-Q algorithms.
@@ -26,13 +26,13 @@ tornado              6.1
 
 Please cite our paper if you use this code in your own work:
 
-@article{wang2021towards,
+@article{wang2022towards,
 
   title={Towards Quantized Model Parallelism for Graph-Augmented MLPs Based on Gradient-Free ADMM framework},
   
   author={Wang, Junxiang and Li, Hongyi and Chai, Zheng and Wang, Yongchao and Cheng, Yue and Zhao, Liang},
   
-  journal={arXiv preprint arXiv:2105.09837},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
   
-  year={2021}
+  year={2022}
 }
