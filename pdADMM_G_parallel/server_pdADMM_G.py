@@ -72,14 +72,11 @@ class MyServer(TCPServer):
 
 
 if __name__ == '__main__':
-    # p = Pool()
-    # client = plasma.connect(config['common']['plasma_path'])
     s = MyServer(max_buffer_size=int(1e12))
-    s.listen(8888)  # single-process
-    # s.bind(8888)  # multi-process; Binds this server to the given port 8888
+    s.listen(8888)
     if layer == 0:
-        s.start(3)  # Forks 5 sub-processes
+        s.start(10)
     else:
-        s.start(3)
+        s.start(10)
 
     IOLoop.current().start()
